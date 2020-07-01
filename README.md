@@ -10,5 +10,5 @@ In case of a power disruption, DCS-924L does not have an internal battery to kee
 1. Ensure that you are able to view the camera stream from an Internet browser via `http://<ip_address>/video.mjpg.cgi`
 2. In `get_frames.py`, edit the code to your camera's IP address, username, and password.
 3. Run `get_frames.py` to start recording.
-4. To convert the frames into video, edit the code in `process_video.py` and change `DATA_DIR`, `date`, and `hour` to where the frames are stored.
+4. To convert the frames into video, edit the code in `process_video.py` and change `base`, `date`, and `hour` to where the frames are stored.
 5. Output video is in .mp4 format and is stored in the same folder as the source frames.
